@@ -26,7 +26,7 @@ DB_DBNAME       name of the schema/database in MySQL.
 
 http://localhost:3000/picking-slips                     GET
 
-Gets all picking_slips (with filter, sort pagination functionality)
+Gets all picking_slips (with filter, sort and pagination functionality)
 
 For filter, insert field name into params key and the {value} to params value or append into URL (i.e. http://localhost:3000/picking-slips?id=68)
 For sort, type 'sortField' with respective field name and 'sortOrder' into params key with either 'ASC' (ascending) or 'DESC' (descending) into params value. (i.e. http://localhost:3000/picking-slips?sortField=id&sortOrder=DESC)
