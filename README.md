@@ -12,7 +12,7 @@ express     4.19.2
 mysql2      3.9.4
 sequelize   6.37.2
 
-2. Configure the .env file to for YOUR OWN local machine. My
+2. Configure the .env file to for YOUR OWN local machine.
 
 PORT            this will be part of the url you call APIs with (http://localhost:XXXX/)
 DB_HOST         should be 'localhost' if running on local machine
